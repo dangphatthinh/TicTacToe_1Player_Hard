@@ -57,6 +57,11 @@ namespace TikTakGame
                                     goto RET3;
                                 }
                             }
+                            else
+                            {
+                                arr[4] = c;
+                                goto RET2;
+                            }
                         }
                         if (Player2Move1(arr, c) == 1) { goto RET2; }
                         if (Player2Move2(arr, c) == 1) { goto RET2; }
