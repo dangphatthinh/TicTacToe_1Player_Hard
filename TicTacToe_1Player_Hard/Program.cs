@@ -42,7 +42,7 @@ namespace TikTakGame
                     {
                         c = 'O';
                         player = 2;
-                        if (i == 1)
+                        /*if (i == 1)
                         {
                             if (arr[4] != 32)
                             {
@@ -62,7 +62,7 @@ namespace TikTakGame
                                 arr[4] = c;
                                 goto RET2;
                             }
-                        }
+                        }*/
                         if (Player2Move1(arr, c) == 1) { goto RET2; }
                         if (Player2Move2(arr, c) == 1) { goto RET2; }
                     RET1: int step = random.Next(1, 9);
